@@ -1,0 +1,152 @@
+:root {
+    --secondary-theme-color: #fcd34d;
+    --sidebar-theme-color: #0ea5e9;
+
+}
+
+body {
+    display: flex;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+/* SIDEBAR AREA */
+.sidebar {
+    background-color: var(--sidebar-theme-color);
+    min-height: 100vh;
+    width: 15vw;
+
+}
+/* END OF SIDEBAR AREA */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+
+    width: 85vw;
+}
+
+/* HEADER AREA */
+.header {
+    background-color: white;
+    position: relative;
+    height: 22vh;
+    width: auto;
+
+    box-shadow: 10px 15px 15px -9px #E0E0E0;
+}
+/* END HEADER AREA */
+
+/* CONTENT AREA */
+.content {
+    background-color: #f1f5f9;
+
+    width: auto;
+    padding: 25px;
+
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.projects {
+    grid-column: 1 / 4;
+}
+
+.project-cards {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    border-radius: 5px;
+    background-color: white;
+
+    box-shadow: 10px 15px 15px -9px #E0E0E0;
+}
+
+.project-card .accent-color {
+    background-color: var(--secondary-theme-color);
+    width: 2%;
+    height: 100%;
+}
+
+.right-popups {
+    display: grid;
+    grid-template-rows: 600px 200px;
+
+
+    width: 100%;
+    height: 100%;
+}
+
+.announcements-area {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 10px 15px 15px -9px #E0E0E0;
+}
+
+.announcements {
+    background-color: white;
+    height: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 10px;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.announcement-title {
+    margin: 0px;
+    padding-bottom: 0px;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.announcement-text {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.announcement-border {
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 1px;
+    background-color: black;
+}
+
+.trending-area {
+
+}
+
+.trending {
+    background-color: white;
+
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    box-shadow: 10px 15px 15px -9px #E0E0E0;
+}
+
+/* END OF CONTENT AREA */
+
