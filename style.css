@@ -34,7 +34,7 @@ body {
 }
 
 .sidebar-first-row,
- .sidebar-second-row{
+ .sidebar-second-row {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +72,7 @@ body {
 .header {
     background-color: white;
     position: relative;
-    height: 22vh;
+    height: max(200px, 22vh);
     width: auto;
 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
@@ -167,7 +167,6 @@ body {
     gap: 0.5rem;
 
     padding-left: 50px;
-
 }
 
 #bottom-header-profile-pic {
