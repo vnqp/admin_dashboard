@@ -227,7 +227,7 @@ body {
     background-color: #e2e8f0;
 
     width: auto;
-    min-height: auto;
+    min-height: 50vh;
     padding: 25px;
 
     display: grid;
@@ -245,12 +245,10 @@ body {
 
 .project-cards {
     display: grid;
-    height: 100vh;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, clamp(200px, 200px, 350px));
+    grid-template-rows: repeat(3, 220px);
     gap: 25px;
 
-    overflow: auto;
 }
 
 .project-card {
@@ -300,10 +298,9 @@ body {
 
 .right-popups {
     display: grid;
-    grid-template-rows: 600px 300px;
+    grid-template-rows: 500px auto;
 
     width: max(250px, 10vw);
-    min-height: 100vh;
 }
 
 .announcements-area {
@@ -314,7 +311,7 @@ body {
 
 .announcements {
     background-color: white;
-    height: 85%;
+    height: 80%;
 
     /* display: flex;
     flex-direction: column;
@@ -332,11 +329,10 @@ body {
 .announcement {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    margin: 20px;
-    margin-bottom: 0px;
-    overflow-wrap: break-word;
-    word-break: break-all;
+    margin: 10px;
+
 }
 
 .announcement-title {
@@ -348,7 +344,7 @@ body {
 }
 
 .announcement-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 0px;
     padding: 0px;
 
@@ -361,7 +357,8 @@ body {
 
 .announcement-border {
     align-self: center;
-    justify-self: center;
+    justify-self: end;
+    margin: auto;
     width: 50%;
     height: 1px;
     background-color: #E0E0E0;
