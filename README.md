@@ -1,3 +1,3 @@
 Project requested by TheOdinProject (https://www.theodinproject.com)
 
-![image](https://user-images.githubusercontent.com/60012562/211677845-4553449c-b256-4e1a-bac0-985783e2277a.png)
+![image](https://github.com/ViniQP/admin_dashboard/blob/main/lib/Screenshot%202023-02-23%20at%2012-40-26%20Admin%20Dashboard.png)
