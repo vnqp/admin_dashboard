@@ -232,7 +232,7 @@ body {
 
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, auto);
 }
 
 .content h2 {
@@ -245,7 +245,7 @@ body {
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     grid-template-rows: repeat(3, 220px);
     gap: 25px;
 
@@ -262,7 +262,7 @@ body {
 
     gap: 2rem;
 
-    overflow: auto;
+    overflow: hidden;
 }
 
 .project-card .accent-color {
